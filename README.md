@@ -8,4 +8,7 @@ Detailed explanation has been published on CSDN and Quora(Chinese) Zhihu.
 
 [Quora(Chinese)Zhihu](https://zhuanlan.zhihu.com/p/522597095)
 
+
+This project uses vgg16 as Backbone, CIFAR10 as pretrained dataset, pets (my own designed dataset), AdamW as gradient descent strategy, and ReduceLROnPlateau as learning adjustment mechanism.
+
 ## The file structure of the project
