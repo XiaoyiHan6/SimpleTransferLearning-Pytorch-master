@@ -20,69 +20,28 @@ D:
 |
 |
 |
-|----data
-       |
-       |
-       |
-       |----CIFAR10
-       |
-       |
-       |
-       |----pet(my own designed dataset, if you need this dataset, you can contact me by CSDN or Zhihu.)
+|----data|----CIFAR10
+         |----pet(my own designed dataset, if you need this dataset, you can contact me by CSDN or Zhihu.)
        
 D:
 |
 |
 |
 |----PycharmProject----SimpleTransferLearning-Pytorch-master
-                        |
-                        |
-                        |
-                        |----tensorboard(args.tensorboard=True, visualization loss)
-                        |
-                        |
-                        |
-                        |----log(classification_log)
-                        |
-                        |
-                        |
-                        |----checkpoints(save model pretrained:CIFAR10_vgg16.pth, the model for training my own dataset: pets_vgg16.pth)
-                        |         |
-                        |         |
-                        |         |
-                        |         |----__init__.py
-                        |         |
-                        |         |
-                        |         |
-                        |         |----vgg16.py
-                        |         
-                        |
-                        |
-                        |----tool----classification
-                        |                  |
-                        |                  |
-                        |                  |
-                        |                  |----train.py
-                        |
-                        |
-                        |
-                        |----utils
-                               |
-                               |
-                               |
-                               |----get_logger.py(log)
-                               |
-                               |
-                               |
-                               |----path.py(path)
-                               |
-                               |
-                               |
-                               |----AverageMeter.py(AP)
-                               |
-                               |
-                               |
-                               |----accuracy.py
+                            |----tensorboard(args.tensorboard=True, visualization loss)
+                            |----log(classification_log)
+                            |----checkpoints(save model pretrained:CIFAR10_vgg16.pth, the model for training my own dataset: pets_vgg16.pth)
+                            |----models
+                            |       |----__init__.py
+                            |       |----vgg16.py
+                            |
+                            |----tool----classification
+                            |                  |----train.py
+                            |----utils
+                                   |----get_logger.py(log)
+                                   |----path.py(path)
+                                   |----AverageMeter.py(AP)
+                                   |----accuracy.py
                           
 ```
 
