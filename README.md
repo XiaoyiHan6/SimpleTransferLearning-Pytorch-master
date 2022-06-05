@@ -85,3 +85,6 @@ D:
                                |----accuracy.py
                           
 ```
+
+## Before transfer learning
+
