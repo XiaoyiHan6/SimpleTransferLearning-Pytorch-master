@@ -13,7 +13,7 @@ This project uses vgg16 (image_size as 64 * 64 * 3 because of my computer) as Ba
 
 I used my own computer Lenovo Saver, besides GPU is 2060.
 
-You should create your own D:\data\CIFAR10 or D:\data\pet(dataset), checkpoint(model save), log, and tenshorboard(loss visualization) file package.
+You should create your own **D:\data\CIFAR10** or **D:\data\pet**(dataset), **checkpoint**(model save), **log**, and **tenshorboard**(loss visualization) file package.
 
 ## The file structure of the project
 
