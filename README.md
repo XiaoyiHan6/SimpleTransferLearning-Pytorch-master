@@ -15,6 +15,9 @@ I used my own computer Lenovo Saver, besides GPU is 2060.
 
 You should create your own **D:\data\CIFAR10** or **D:\data\pet**(dataset), **checkpoint**(model save), **log**, and **tenshorboard**(loss visualization) file package.
 
+**pet** is my own designed dataset, if you need it, and you can contact me by CSDN or Zhihu.
+there are two categories of this dataset. One is cat, and the other is dog.
+
 ## The file structure of the project
 
 ```
@@ -23,8 +26,8 @@ D:
 |
 |
 |----data|----CIFAR10
-         |----pet(my own designed dataset, if you need this dataset, you can contact me by CSDN or Zhihu.)
-       
+         |----pet|----imgs
+                 |----annots       
 D:
 |
 |
@@ -43,6 +46,7 @@ D:
                                    |----get_logger.py(log)
                                    |----path.py(path)
                                    |----AverageMeter.py(AP)
+                                   |----dataloader.py()
                                    |----accuracy.py
                           
 ```
